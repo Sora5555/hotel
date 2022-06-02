@@ -1,0 +1,66 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image{
+    max-width: 100%;
+    text-align: center;
+}
+img{
+    width: 50%;
+}
+.h1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+    padding-block: 1rem;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 2rem;
+}
+nav{
+    width: 30%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+li{
+    border-left: 1px solid grey;
+    padding-inline: 1rem;
+    text-align: center;
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: rgb(123, 203, 240);
+}
+.Fasilitas{
+    color:rgb(103, 170, 201)
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    width: 90%;
+    gap: 2rem;
+    padding-block: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+.grid-container > div{
+    text-align: center;
+}
